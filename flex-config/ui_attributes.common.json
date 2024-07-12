@@ -5,15 +5,15 @@
     }
   },
   "custom_data": {
-    "serverless_functions_domain": "<YOUR_SERVERLESS_DOMAIN>",
+    "serverless_functions_domain": "https://custom-flex-extensions-serverless-8669-dev.twil.io",
     "common": {
       "log_level": "info",
       "audit_log_ttl": 1209600,
       "teams": [
-        "Blue Team",
-        "Red Team",
-        "Gold Team",
-        "VIP Team"
+        "Customer Support",
+        "Clinical Support",
+        "iTero Support",
+        "CAD Designers"
       ],
       "departments": [
         "General Management",
@@ -251,10 +251,7 @@
         "per_queue": {
           "exampleQueueName": {
             "require_disposition": true,
-            "dispositions": [
-              "Promotional Sale",
-              "Renewal"
-            ],
+            "dispositions": ["Promotional Sale", "Renewal"],
             "text_attributes": [],
             "select_attributes": []
           }
